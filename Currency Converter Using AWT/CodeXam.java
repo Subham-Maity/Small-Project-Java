@@ -5,10 +5,11 @@ Approach:
 JTextField and JButton.
 3.Name these components accordingly and set their bounds.
 4.Now, in order to perform the conversion on button click, we need to add Event Handlers. In this case, we will add ActionListener
-5.To perform an action method known as actionPerformed in which first we need to get the values from the text fields which is default as a “string”.
+to perform an action method known as actionPerformed in which 
+5.first we need to get the values from the text fields which is default as a “string”.
 6.So, in order to perform mathematical operations, we need to convert them into double data type using Double.parseDouble(Object.getText())
-and again converting from double to string to place the final value in the other text field using String.valueOf(object).
-7.Finally, for changing the values, we use Object.setText(object), the second object is for selecting which field we want to replace.
+7.and again converting from double to string to place the final value in the other text field using String.valueOf(object).
+8.Finally, for changing the values, we use Object.setText(object), the second object is for selecting which field we want to replace.
 */
 
 /*
